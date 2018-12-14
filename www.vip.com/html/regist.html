@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../register_iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    </head>
+    <body>
+    <script src="../js/jquery-3.3.1.js"></script>
+<!-- 注册头部 -->
+    <section id="top">
+       <section class="top_logo">
+        <a href="#" class="top_logo_link"></a>
+    </section>
+    <section class="top_service"></section>
+    </section>
+    <!-- 注册banner -->
+    <section id="banner" >
+        <section class="banner_content">
+        <section class="register-part">
+            <section class="register-part-top">
+              <section class="register-part-top-nav">
+                  <span class="register-part-top-nav-scan" >会员注册
+                  </span>
+                  <span class="register-part-top-nav-account">已注册可<a href="login.html">直接登录</a>
+                  </span>
+              </section>
+
+              <!-- 注册部分 -->
+               <section class="vip_register_body">
+                    <section id="reg_form_wrapper">
+
+                        <form id="reg_mobile_form" action="/register" method="post" autocomplete="off" class="register-form">
+                          
+                                 <section class="input-all lq-input-phone">  
+                                          <input type="text" class="ui-input input-phone-num" id="L_mobile_name" name="loginName" placeholder="请输入手机号码">
+                                         <span class="iconfont icon-failure-pop if-phone-wrong"></span>
+                                         <span class="iconfont icon-shouji"></span>
+                                 </section>
+                               <section class="phone-input-tip">
+                                        <span class="input-blur">请输入您的11位手机号码</span>
+                                           <span class="if-input-wrong">请输入正确的手机号码</span>
+                                           <span class="if-input-right"></span>
+                                    </section>
+                                 
+                                </form>
+
+                                <form id="reg_mobile_form reg_verifiCode" action="/register" method="post" autocomplete="off" class="register-form">
+                                 <section class="input-all lq-input-verCode">  
+                                          <input type="text" class="ui-input input-verCode-num" id="L_verifiCode_name" name="loginName" placeholder="请输入验证码">
+
+                                         <span class="iconfont icon-failure-pop if-verifiCode-wrong"></span>
+                                         <span class="iconfont icon-xinxi"></span>
+                                  <div id="box">6d8w79</div>
+
+                                 </section>
+                               <section class="verifiCode-input-tip">
+                                        
+                                           <span class="verifiCode-if-input-wrong">请输入正确的验证码</span>
+                                           <span class="verifiCode-if-input-right"> </span>
+                                    </section>
+                                </form>
+
+
+
+                    <form id="reg_mobile_form reg_passwd" action="/register" method="post" autocomplete="off" class="register-form">
+                          
+                                 <section class="input-all lq-input-passwd">  
+                                          <input type="password" class="ui-input input-passwd" id="L_mobile_passwd" name="password" maxlength="20" placeholder="密码由6-20位字母，数字和符号组合" >
+                                         <span class="iconfont icon-failure-pop if-passwd-wrong"></span>
+                                         <span class="iconfont icon-suo"></span>
+                                 </section>
+                               <section class="passwd-input-tip">
+                                       
+                                           <span class="if-password-wrong">请输入正确格式的密码</span>
+                                           
+                                    </section>
+                                 
+                                </form>
+
+<form id="reg_mobile_form reg_passwd-config" action="/register" method="post" autocomplete="off" class="register-form">
+                          
+                                 <section class="input-all lq-input-passwd-config">  
+                                          <input type="password" class="ui-input input-passwd-config" id="L_mobile_passwd-config" name="password" maxlength="20" placeholder="请再次输入上面的密码" >
+                                         <span class="iconfont icon-failure-pop if-passwd-wrong-config"></span>
+                                         <span class="iconfont icon-suo"></span>
+                                 </section>
+                               <section class="passwd-config-input-tip">
+                                       
+                                           <span class="if-password-config-wrong">两次输入的密码不一致，请重试</span>
+                                           
+                                    </section>
+                                 
+                                </form>
+
+
+                    </section>
+                        <section class="check-text">
+                            <section class="check-text-group">
+                    <span class="ui-checkbox ">
+                    <input type="checkbox" id="J_mobile_agree" name="agree" class="ui-checkbox-normal" value="1" mars_sead="125|2|1|11" checked>
+
+                   
+                </span>
+                <label for="J_mobile_agree" class="u-provision-txt">我已阅读并接受以下条款：<a href="http://support.vip.com/clause/?ff=125|2|1|12" class="u-link" target="_blank" id="J_mobile_provision">《唯品会服务条款》</a><a href="http://support.vip.com/privacy/" class="u-link" target="_blank">《隐私条款》
+
+</a><a href="https://i.vpal.com/clause.html" class="u-link" target="_blank">《唯品支付用户服务协议》</a><a href="https://grcredit.vip.com/pc/protocol" 
+
+class="u-link" target="_blank">《唯品信用服务协议》</a></label>
+                            </section>
+                             <!-- <section class="check-text-input-tip">
+                                       
+                                           <span class="if-password-config-wrong">两次输入的密码不一致，请重试</span>
+                                           
+                                    </section> -->
+                        </section>
+
+
+<section class="reg-submit">
+    <a href="#"><span class="submit-btn">立即注册</span>
+    </a>
+</section>
+               </section>
+
+              </section>
+            </section>            
+        </section>
+    </section>
+
+
+    <script src="../js/register.js"></script>
+
+
+
+    <!-- 注册页脚 -->
+<section id="register-footer-copyright">
+  <p class="register-footer-copyright-text">Copyright 2008-2018 vip.com，All Rights Reserved ICP证：粤 B2-20080329</p>
+</section>
+ <!--  <script src="js/login.js"></script> -->
+    </body>
+</html>

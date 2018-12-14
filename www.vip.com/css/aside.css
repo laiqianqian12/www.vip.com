@@ -1,0 +1,118 @@
+
+
+/*右侧侧边栏*/
+aside{
+    width: 30px;
+    height: 448px;
+    padding-top: 80px;
+    position: fixed;
+    right:0px;
+    top: 0px;
+    background: #262626;
+    z-index: 999;
+}
+/*右侧边栏上端*/
+.asideTop{
+    width: 30px;
+    height: 40px;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+    text-align: center;
+    position: relative;
+}
+/*右侧边栏上端账号*/
+.asideTop_zhanghao{
+     width: 145px;
+    height: 119px;
+    position: absolute;
+    top:5px;
+    right:30px; 
+    border:1px solid #ccc;
+    background: #fff;
+     padding:22px 22px 22px 22px;
+}
+.asideTop_zhanghao li>a{
+    float: left;
+}
+.asideTop_zhanghao li>.right{
+     float: right;
+}
+.asideTop_zhanghao li{
+    height: 25px;
+}
+.asideTop_zhanghao .nihao{
+    width: 149px;
+    height: 27px;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom:16px;
+    border-bottom:2px dashed #ccc;
+    
+}
+.asideTop_zhanghao .nihao img{
+    height: 100%;
+    float: left;
+    margin-right: 12px;
+}
+.asideTop i{
+    color: #dadada !important;
+    font-size: 24px;
+    width: 32px;
+
+}
+.asideTop span{
+    width: 30px;
+    font-size: 12px;
+    color: #dadada;
+}
+
+
+/*右侧边栏中间购物车*/
+.asideCenter{
+    width: 32px;
+    height: 120px;
+    background:#e4127d;
+     text-align: center;
+     padding-top: 10px;
+}
+.asideCenter i{
+    color: #ffdafd !important;
+     font-size: 20px;
+}
+.asideCenter a{
+    display: block;
+    width: 15px;
+    color: #ffdafd;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+/*右侧边栏底部*/
+.asideBottom{
+    width: 30px;
+    height: 120px;
+    text-align: center;
+}
+.asideBottom>i{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: #fff !important;
+    text-align: center;
+    line-height: 30px;
+}
+.returnTop{
+    width: 30px;
+    height: 60px;
+    margin-top: 70px;
+    position: relative;
+    text-align: center;
+}
+.returnTop i{
+    margin-bottom: 10px;
+    color: #ffdafd !important;
+     font-size: 20px;
+}

@@ -1,0 +1,103 @@
+#tab{
+    width: 752px;
+    height: 276px;
+    margin:23px auto;
+   /* padding: 10px 10px;*/
+    /*background: #ccc;*/
+    border:1px solid #fefefe;
+    position: relative;
+    z-index: -2;
+}
+
+#tab img{
+    width: 752px;
+    height: 276px;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    transition:1s;
+}
+.both-btn{
+    width: 41px;
+    height: 69px;
+    position: absolute;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    display: none;
+}
+#next{
+
+    top:50%;
+    margin-top: -34.5px;
+    right: 0px;
+    background: url(../images/page.png) no-repeat -41px 0px;
+}
+#pre{
+    top:50%;
+    margin-top: -34.5px;
+    left: 0px;
+    background: url(../images/page.png) no-repeat 0px 0px;
+}
+#tab:hover button{
+    display: block;
+}
+#next:hover{
+     background: url(../images/page.png) no-repeat -123px 0px,#fff;
+         opacity: 0.5
+     }
+#pre:hover{
+     background: url(../images/page.png) no-repeat -82px 0px,#fff;
+         opacity: 0.5
+}
+#page{
+    width: 170px;
+    height: 20px;
+    display: flex;
+    border-radius: 10px;
+    justify-content:space-around;
+    align-items:center;
+    background: #fff;
+    opacity: 0.7;
+    position: absolute;
+    bottom:10px;
+    left: 50%;
+    margin-left:-50px;
+    cursor: pointer;
+}
+#page>li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: yellow;
+    cursor: pointer;
+
+}
+.ad{
+    width: 752px;
+    height: 222px;
+    margin: 19px auto;
+}
+.ad .ad1{
+    width: 752px;
+    height: 103px;
+}
+.ad .ad1 img{
+    width: 100%;
+    height: 100%;
+}
+.ad ul li{
+    float: left;
+    margin-top: 6px;
+    margin-right:6px;
+    width: 246px;
+    height: 111px;
+
+}
+.ad ul li img{
+    width: 100%;
+    height: 100%;
+}
+.ad .ad2{
+    margin-right:0px;
+}

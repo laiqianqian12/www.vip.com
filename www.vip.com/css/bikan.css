@@ -1,0 +1,66 @@
+.bikan{
+    width: 752px;
+    height: 329px;
+    margin:19px auto;
+}
+.bikan_top{
+    width: 752px;
+    height: 46px;
+
+}
+.line_1{
+    float: left;
+    width: 304px;
+    height: 23px;
+    border-bottom: 2px solid #eaeaea;
+}
+.line_2{
+    float: left;
+    width: 304px;
+    height: 23px;
+    border-bottom: 2px solid #eaeaea;
+}
+.bikan h1{
+     float: left;
+    width: 144px;
+    height: 46px;
+    text-align:center;
+    line-height: 46px;
+    font-size: 17px;
+}
+.bikan_bottom{
+    width: 752px;
+    height: 269px;
+    
+}
+
+.bikan_bottom .bk_1{
+    width: 156px;
+    height: 150px;
+    float: left;
+    margin-right: 14px;  
+     margin-bottom: 16px;
+}
+.bikan_bottom .bk_1 img{
+
+    width: 100%;
+    height: 100%;
+}
+.bikan_bottom .bk_2{
+    width: 238px;
+    height: 66px;
+    float: right;
+    margin-bottom: 16px;
+}
+.bikan_bottom .bk_2 img{
+    width: 100%;
+    height: 100%;
+}
+.bikan_bottom .bk_3{
+    width: 752px;
+    height: 103px;
+}
+.bikan_bottom .bk_3 img{
+    width: 100%;
+    height: 100%;
+}

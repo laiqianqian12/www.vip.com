@@ -1,0 +1,38 @@
+/* 
+* @Author: anchen
+* @Date:   2018-12-11 10:46:37
+* @Last Modified by:   anchen
+* @Last Modified time: 2018-12-13 13:24:17
+*/
+#top{
+    position: relative;
+    z-index: -2;
+    margin: auto;
+    width: 752px;
+    height: 100px;
+
+}
+.top_logo{
+    display: inline-block;
+    float: left;
+}
+.top_logo_link{
+    background-image: url(../images/sprite-hash.png);
+    background-position: -300px -57px;
+    width: 125px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 500px;
+    overflow: hidden;
+}
+.top_service{
+background-image: url(../images/sprite-hash.png);
+    background-position: 0 0;
+    width: 296px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}

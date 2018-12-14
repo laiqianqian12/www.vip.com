@@ -1,0 +1,372 @@
+/* 
+* @Author: anchen
+* @Date:   2018-12-10 13:18:33
+* @Last Modified by:   anchen
+* @Last Modified time: 2018-12-10 20:15:31
+*/
+*{margin:0px;padding:0;
+list-style: none;
+font-weight: normal;}
+#top{
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    width: 1000px;
+    height: 100px;
+
+}
+.top_logo{
+    display: inline-block;
+    float: left;
+}
+.top_logo_link{
+    background-image: url(../images/sprite-hash.png);
+    background-position: -300px -57px;
+    width: 125px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 500px;
+    overflow: hidden;
+}
+.top_service{
+background-image: url(../images/sprite-hash.png);
+    background-position: 0 0;
+    width: 296px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+#banner{
+background-image:url(../images/bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.banner_content{
+    margin: auto;
+    padding: 50px 20px;
+    min-height: 550px;
+    width: 1000px;
+}
+.register-part{
+    float: right;
+    width: 360px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #fff;
+}
+.register-part-top{
+    width: 360px;
+    
+}
+.register-part-top-nav{
+    width: 360px;
+    height: 50px;
+     border-bottom: 1px solid #ccc;
+}
+.register-part-top-nav-scan{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 180px;
+    vertical-align: top;
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    float: left;
+}
+.register-part-top-nav-account{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 179px;
+    vertical-align: top;
+    text-align: center;
+    /*color: #f10180;*/
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    float: right;
+    color:#666;
+  
+}
+.register-part-top-nav-account a{
+     font-size: 14px;
+     color:#f10180;
+
+}
+.vip_register_body{
+    padding:30px;
+}
+
+#reg_form_wrapper{
+text-align: left;
+}
+
+
+#reg_mobile_form{
+    width: 300px;
+    height: 67px;
+}
+.input-all{
+    position: relative;
+    display: inline-block;
+    vertical-align: top; 
+  width: 300px;
+  height: 46px;
+}
+.input-phone-num{
+    display: inline-block;
+    padding-left: 40px;
+    width: 248px;
+    height: 32px;
+    line-height: 32px;
+    padding: 6px 10px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #b2b2b2;
+    border-radius: 3px;
+    outline: 0;
+}
+#L_mobile_name{
+  display: inline-block;
+    padding-left: 40px;
+}
+.if-phone-wrong{
+    position: absolute;
+    right:5px;
+    top:10px;
+    color:#f64a4a;
+    display: none;
+}
+.icon-shouji{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    width: 16px;
+    height: 16px;
+}
+.ui-input{
+    padding-left: 40px;
+    width: 248px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.phone-input-tip{
+    font-size: 12px;
+    position: relative;
+    min-height: 19px;
+    max-height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    display: block;
+}
+.input-blur{
+    display: none;
+    color: #333;
+}
+.if-input-wrong{
+    color:#f64a4a;
+    display: none;
+}
+.lq-input-verCode{
+   position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+.if-verifiCode-wrong{
+    position: absolute;
+    right:157px;
+    top:10px;
+     color:#f64a4a;
+     display: none;
+}
+.icon-xinxi{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    width: 16px;
+    height: 16px;
+}
+
+/*input*/
+
+.input-verCode-num{
+    width: 106px;
+    margin-right: 10px;
+    border-radius: 3px;
+    float: left;
+    height: 44px;
+    border:1px solid #b2b2b2;
+
+}
+
+#box{
+    padding: 0 12px;
+    width: 106px;
+    font-size: 29px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 3px;
+    border:1px solid #b2b2b2;
+    float: left;
+    background: lightblue;
+    cursor:pointer;
+    
+}
+.verifiCode-input-tip, .passwd-input-tip, .passwd-config-input-tip{
+ font-size: 12px;
+    position: relative;
+    min-height: 19px;
+    max-height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    display: block;
+}
+.verifiCode-if-input-wrong{
+    color:#f64a4a;
+    display: none;
+}
+.input-passwd{
+ display: inline-block;
+    padding-left: 40px;
+    width: 248px;
+    height: 32px;
+    line-height: 32px;
+    padding: 6px 10px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #b2b2b2;
+    border-radius: 3px;
+    outline: 0;
+}
+#L_mobile_passwd{
+     display: inline-block;
+    padding-left: 40px;
+}
+.if-passwd-wrong{
+    position: absolute;
+    right:10px;
+    top:10px;
+     color:#f64a4a;
+     display: none;
+}
+.icon-suo{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    width: 16px;
+    height: 16px;
+}
+.if-password-wrong{
+    color:#f64a4a;
+    display: none;
+}
+
+
+
+
+
+.input-passwd-config{
+ display: inline-block;
+    padding-left: 40px;
+    width: 248px;
+    height: 32px;
+    line-height: 32px;
+    padding: 6px 10px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #b2b2b2;
+    border-radius: 3px;
+    outline: 0;
+}
+#L_mobile_passwd-config{
+     display: inline-block;
+    padding-left: 40px;
+}
+.if-passwd-wrong-config{
+    position: absolute;
+    right:10px;
+    top:10px;
+     color:#f64a4a;
+     display: none;
+}
+.icon-suo{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    width: 16px;
+    height: 16px;
+}
+.if-password-config-wrong{
+    color:#f64a4a;
+    display: none;
+}
+.control-group .u-provision-txt {
+    vertical-align: middle;
+    font-size: 12px;
+    display: inline-block;
+    width: 276px;
+    line-height: 1.5;
+}
+.u-provision-txt{
+    font-size: 12px;
+}
+.u-link{
+color: #1d94d1;
+vertical-align: baseline;
+}
+.reg-submit{
+ 
+    margin-bottom: 30px;
+    font-size: 16px;
+    width: 298px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 18px;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: top;
+    -webkit-transition: .3s;
+    transition: .3s;
+    cursor: pointer;
+    background-color: #f10180;
+    border: 1px solid #f10180;
+}
+.submit-btn{
+    color:#fff;
+display: inline-block;
+}
+
+#register-footer-copyright{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    height: 78px;
+    line-height: 78px;
+}
+.register-footer-copyright-text{
+    color: #666;
+    text-align: center;
+    font-size: 14px;
+}

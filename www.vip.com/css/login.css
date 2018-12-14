@@ -1,0 +1,479 @@
+/* 
+* @Author: anchen
+* @Date:   2018-11-21 16:32:42
+* @Last Modified by:   anchen
+* @Last Modified time: 2018-12-12 20:16:22
+*/
+*{margin:0px;padding:0;
+list-style: none;
+font-weight: normal;}
+/*#top{
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    width: 1000px;
+    height: 100px;
+
+}
+.top_logo{
+    display: inline-block;
+    float: left;
+}
+.top_logo_link{
+    background-image: url(../images/sprite-hash.png);
+    background-position: -300px -57px;
+    width: 125px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 500px;
+    overflow: hidden;
+}
+.top_service{
+background-image: url(../images/sprite-hash.png);
+    background-position: 0 0;
+    width: 296px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}*/
+#banner{
+background-image:url(../images/bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.banner_content{
+    margin: auto;
+    padding: 50px 20px;
+    min-height: 550px;
+    width: 1000px;
+}
+.login-part{
+    float: right;
+    width: 360px;
+    height: 438px;
+    border-radius: 5px;
+    background: #fff;
+}
+.login-part-top{
+    width: 360px;
+    height: 330px;
+}
+.login-part-top-nav{
+    width: 360px;
+    height: 50px;
+     border-bottom: 1px solid #ccc;
+}
+.login-part-top-nav-scan:hover{
+    color:#f10180;
+}
+.login-part-top-nav-account:hover{
+     color:#f10180;
+}
+.login-part-top-nav-scan{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 180px;
+    vertical-align: top;
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    float: left;
+}
+.login-part-top-nav-account{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 179px;
+    vertical-align: top;
+    text-align: center;
+    /*color: #f10180;*/
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    float: right;
+    border-left:0.5px solid #ccc;
+}
+.login-part-top-content{
+    width: 360px;
+    height: 279px;
+    position: relative;
+    display: none;
+}
+.login-form{
+    width: 300px;
+    margin:auto;
+    padding-top: 40px;
+}
+
+
+
+.login-form-loginname{
+     width: 300px;
+     height: 67px;
+     position: relative;
+     display: inline-block;
+     margin-bottom: 5px;
+}
+.login-form-loginname .comment{
+    color:red;
+    position: absolute;
+    left: 5px;
+    bottom: 0px;
+    display: inline-block;
+    display: none;
+
+
+}
+#username{
+    display: inline-block;
+    /*padding-left:40px;*/
+    width: 248px;
+    height: 32px;
+    line-height: 32px;
+    padding: 6px 10px 6px 40px;
+    font: 14px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #b2b2b2;
+    border-radius: 3px;
+}
+
+.login-icon{
+    position: absolute;
+    top: 13px;
+    left: 11px;
+    z-index: 1;
+    background-image: url(../images/sprite-hash.png);
+    background-position: -460px -161px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.login-form-password{
+     width: 300px;
+     height: 67px;
+     position: relative;
+     display: inline-block;
+     margin-bottom: 10px;
+}
+.password-comment{
+    color:red;
+    position: absolute;
+    left: 5px;
+    bottom: 0px;
+    display: inline-block;
+    display: none;
+    
+
+}
+#password{
+    display: inline-block;
+    /*padding-left:40px;*/
+    width: 248px;
+    height: 32px;
+    line-height: 32px;
+    padding: 6px 10px 6px 40px;
+    font: 14px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #b2b2b2;
+    border-radius: 3px;
+}
+.login-icon-password{
+    position: absolute;
+    top: 13px;
+    left: 11px;
+    z-index: 1;
+    background-image: url(../images/sprite-hash.png);
+    background-position: -388px -161px;;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.login-other-item{
+    width: 300px;
+    height: 19px;
+}
+.item-right{
+    float: right;
+}
+.item-right a{
+    outline: 0;
+    color:#333;
+    font-size:15px;
+    line-height: 19px;
+}
+#loginBtn{
+    width: 300px;
+    height: 49px;
+    background: #f10180;
+    color:#fff;
+    text-align: center;
+    line-height: 49px;
+    position: absolute;
+    bottom: 0px;
+    border:none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#login-footer{
+    width: 360px;
+    height: 121px;
+}
+.footer-content{
+    width: 300px;
+    height: 76px;
+    margin:0px auto;
+    position: relative;
+    z-index: 1;
+    padding-top: 30px;
+    padding-bottom: 2px;
+}
+.wechat{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 12px;
+    height: 40px;
+}
+.line{
+    position: absolute;
+    z-index: 1;
+    content: '';
+    top: 20px;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+}
+.wechat-icon{
+    background-image: url(../images/sprite-hash.png);
+    background-position: -300px -161px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    z-index: 3;
+}
+.footer-content-main{
+    width: 300px;
+    height: 15px;
+}
+.footer-content-main-list{
+    display: inline-block;
+    vertical-align: top;
+}
+.main-list-item{
+    float: left;
+    position: relative;
+    padding-right: 6px;
+    padding-left: 6px;
+    line-height: 14px;
+   /* display: list-item;*/
+}
+.main-list-item-first{
+    margin-right: 0px;
+}
+.main-list-item a{
+    font-size:13px;
+    color: #333;
+    text-decoration: none;
+   
+}
+.main-list-item-second{
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+ 
+}
+.main-list-more{
+    margin-left: 18px;
+    margin-right: 10px;
+    width: 44px;
+    position: relative;
+     float: left;
+    position: relative;
+    padding-right: 6px;
+    padding-left: 6px;
+    line-height: 14px;
+}
+
+.main-list-more .more-button{
+  width: 44px;
+  height: 14px;
+   float: left;
+   display: inline-block;
+    font-size:13px;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+.main-list-more .icon-jiantouxia, .icon-jiantoushang1{
+     color: #000 !important;
+     margin-left: 3px;
+    vertical-align: top;
+    line-height: 14px;
+    width: 13px;
+    height: 13px;
+    float: right;
+   
+}
+
+.main-list-more .shou-button{
+    display: none;
+     font-size:13px;
+    color: #333;
+  /*  text-decoration: none;*/
+     cursor: pointer;
+}
+.main-list-more a{
+     text-decoration: none;
+     color:#333;
+}
+.footer-content-main-more{
+position: absolute;
+top:25px;
+left: -198px;
+display: block;
+overflow: hidden;
+background: #fff;
+padding-left: 15px;
+padding-right: 15px;
+display: none;
+}
+.footer-content-main-more-list{
+    width: 330px;
+height: 73px;
+margin-top: 10px;
+}
+.footer-content-main-more-listItem{
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 10px;
+    min-width: 59px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 10px;
+    border-right: 0.5px solid #ccc;
+      
+}
+.main-list-item:hover a{
+color:#f10180;
+};
+
+
+
+
+
+.scan-form-erweiCode{
+    position: absolute;
+    top: 50%;
+    left: 94px;
+    z-index: 2;
+    margin-top: -86px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+}
+.scan-part-top-content{
+    width: 360px;
+    height: 279px;
+    position: relative;
+   /* display: none;*/
+    overflow: hidden;
+}
+.scan-form-group{
+    overflow: hidden;
+    position: relative;
+}
+
+.scan-form{
+    width: 360px;
+    padding-top: 36px;
+    text-align: center;
+    overflow: hidden;
+}
+.scan-form-section{
+    position: relative;
+    z-index: 1;
+    min-height: 192px; 
+}
+.scan-form-erweiCode{
+    position: absolute;
+    top: 50%;
+    left: 94px;
+    z-index: 2;
+    margin-top: -86px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    transition:0.6s;
+}
+.scan-form-section:hover .scan-form-erweiCode{
+     left: 30px;
+}
+.scan-form-section:hover .scan-form-erweiCode-img{
+   /* display: block;*/
+    opacity: 1;
+}
+.scan-form-text{
+    margin-top: 20px;
+    color: #333;
+    line-height: 16px;
+    font-size: 14px;
+
+}
+.icon-saoyisao1{
+    margin-top: 6px;
+    margin-right: 5px;
+    
+}
+.scan-form-erweiCode-img {
+    background-image: url(../images/sprite-hash.png);
+    background-position: 0 -104px;
+    width: 120px;
+    height: 192px;
+    /*display: none;*/
+    position: absolute;
+    top: 0;
+    right: 30px;
+    z-index: 1;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transition:1s;
+}
+.scan-form-text-color{
+    color:#f10180;
+}
+
+#login-footer-copyright{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    height: 78px;
+    line-height: 78px;
+}
+.login-footer-copyright-text{
+    color: #666;
+    text-align: center;
+    font-size: 14px;
+}

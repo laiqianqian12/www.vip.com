@@ -1,0 +1,365 @@
+nav{
+    width: 752px;
+    height: 31px;
+    margin:0px auto;
+    border-bottom:  1px solid #f6f6f6
+
+}
+nav .classify{
+    float: left;
+    position: relative;
+    width: 117px;
+    height: 30px;
+    z-index: 99;
+    text-align: center;
+    line-height: 29px;
+    font-size: 11px;
+    color:#fff;
+    background: url(../images/fenlei.png)no-repeat 15px ,#f10180;
+    cursor: pointer;
+}
+nav .classify a{
+    color:#fff;
+
+}
+.dropDownList{
+    height: 297px;
+    width: 117px;
+    position: absolute;
+    top:30px;
+    left: 0px;
+    background: #f10180;
+    display: none;
+}
+nav .classify .dropDownList>div{
+    height: 27px;
+    width: 117px;
+    text-align: center;
+    line-height: 27px;
+    color: #fff;
+     font-size: 11px;
+     position: relative;
+}
+.classify:hover{
+    border-bottom: none;
+}
+.classify:hover .detail img{
+    display: none;
+}
+.classify:hover .dropDownList{
+    display: block;
+}
+
+.dropDownList div:hover {
+    background: #fff;
+    color:#f10180 !important;
+
+}
+.dropDownList div:hover .detail img{
+    display: block;
+}
+
+.detail{
+    width: 638px;
+    height: 297px; 
+    overflow: hidden;
+    position: absolute;
+    top:0px;
+    left: 117px;
+    background: #fff;
+    display: none;
+    
+}
+  
+
+.detail img{
+    width: 165px;
+    height: 100%;
+    float: right;
+}
+.detail-item{
+    width: 473px;
+   overflow: hidden;
+   border-bottom: 0.5px solid #ccc;
+}
+.detail-tit{
+    width: 70px;
+    height: 100%;
+    display: block;
+    float: left;
+}
+.detail-tit>span{
+   font-size: 10px;
+   line-height: 20px;
+}
+.detail-a{
+    width: 403px;
+    overflow: hidden;  
+}
+.detail-a a{
+    font-size: 9px;
+    line-height: 18px;
+    float: left;
+    margin-right: 6px;
+    color: #9e52ed !important;
+}
+.detail-a>a:hover{
+    color: #f20d87 !important;
+}
+nav .classify .dropDownList>div:hover .detail{
+    display: block;
+}
+.detail2{
+    width: 638px;
+    height: 297px; 
+    overflow: hidden;
+    position: absolute;
+    top:-27px;
+    left: 117px;
+    background: #fff;
+    display: none; 
+}
+.detail2 img{
+    width: 165px;
+    height: 100%;
+    float: right;
+}
+nav .classify .dropDownList>div:hover .detail2{
+    display: block;
+}
+.detail3{
+    width: 638px;
+    height: 297px; 
+    overflow: hidden;
+    position: absolute;
+    top:-54px;
+    left: 117px;
+    background: #fff;
+    display: none; 
+}
+.detail3 img{
+    width: 165px;
+    height: 100%;
+    float: right;
+}
+
+nav .classify .dropDownList>div:hover .detail3{
+    display: block;
+}
+.detail4{
+    width: 638px;
+    height: 297px; 
+    overflow: hidden;
+    position: absolute;
+    top:-81px;
+    left: 117px;
+    background: #fff;
+    display: none; 
+}
+.detail4 img{
+    width: 165px;
+    height: 100%;
+    float: right;
+}
+
+nav .classify .dropDownList>div:hover .detail4{
+    display: block;
+}
+.detail5{
+    width: 638px;
+    height: 297px; 
+    overflow: hidden;
+    position: absolute;
+    top:-108px;
+    left: 117px;
+    background: #fff;
+    display: none; 
+}
+.detail5 img{
+    width: 165px;
+    height: 100%;
+    float: right;
+}
+
+nav .classify .dropDownList>div:hover .detail5{
+    display: block;
+}
+.detail6{
+    width: 638px;
+    height: 297px; 
+    overflow: hidden;
+    position: absolute;
+    top:-135px;
+    left: 117px;
+    background: #fff;
+    display: none; 
+}
+.detail6 img{
+    width: 165px;
+    height: 100%;
+    float: right;
+}
+
+nav .classify .dropDownList>div:hover .detail6{
+    display: block;
+}
+.detail7{
+    width: 638px;
+    height: 297px; 
+    overflow: hidden;
+    position: absolute;
+    top:-162px;
+    left: 117px;
+    background: #fff;
+    display: none; 
+}
+.detail7 img{
+    width: 165px;
+    height: 100%;
+    float: right;
+}
+
+nav .classify .dropDownList>div:hover .detail7{
+    display: block;
+}
+.detail8{
+    width: 638px;
+    height: 297px; 
+    overflow: hidden;
+    position: absolute;
+    top:-189px;
+    left: 117px;
+    background: #fff;
+    display: none; 
+}
+.detail8 img{
+    width: 165px;
+    height: 100%;
+    float: right;
+}
+
+nav .classify .dropDownList>div:hover .detail8{
+    display: block;
+}
+.detail9{
+    width: 638px;
+    height: 297px; 
+    overflow: hidden;
+    position: absolute;
+    top:-216px;
+    left: 117px;
+    background: #fff;
+    display: none; 
+}
+.detail9 img{
+    width: 165px;
+    height: 100%;
+    float: right;
+}
+
+nav .classify .dropDownList>div:hover .detail9{
+    display: block;
+}
+.detail10{
+    width: 638px;
+    height: 297px; 
+    overflow: hidden;
+    position: absolute;
+    top:-243px;
+    left: 117px;
+    background: #fff;
+    display: none; 
+}
+.detail10 img{
+    width: 165px;
+    height: 100%;
+    float: right;
+}
+
+nav .classify .dropDownList>div:hover .detail10{
+    display: block;
+}
+.detail11{
+    width: 638px;
+    height: 297px; 
+    overflow: hidden;
+    position: absolute;
+    top:-270px;
+    left: 117px;
+    background: #fff;
+    display: none; 
+}
+.detail11 img{
+    width: 165px;
+    height: 100%;
+    float: right;
+}
+
+nav .classify .dropDownList>div:hover .detail11{
+    display: block;
+}
+nav ul{
+    display: inline-block;
+    float: right;
+    width: 615px;
+    height: 31px;
+   
+}
+nav ul li{
+    float: left;
+    width: 48px;
+    height: 31px;
+    text-align: center;
+    line-height: 31px;
+}
+nav ul li a{
+    font-size: 13px;
+}
+nav ul li a:hover {
+    
+    color: #f10180;
+}
+nav ul .shou{
+    color: #f10180;
+}
+nav ul .list1{
+    width: 66px;
+    height: 31px;
+    line-height: 31px;
+}
+nav ul .list1 img{
+    width: 14px;
+    height: 20px;
+    margin-left: 13px;
+    margin-top:6px;
+    float: left;
+}
+nav ul .list2{
+    background: url(../images/jiantou_03.gif)no-repeat 39px center;
+    position: relative;
+    transtion:2s;
+}
+.list2 .gengduo{
+    width: 48px;
+    height: 186px;
+    position: absolute;
+    top:31px;
+    left: 0px;
+    background: #fff;
+    display: none;
+    transtion:2s;
+}
+.list2 .gengduo a{
+    display: inline-block;
+    height: 31px;
+    text-align: center;
+    line-height: 31px;
+    width: 48px;
+    font-size: 12px;
+}
+nav ul .list2:hover{
+    box-shadow:0px -1px 2px 1px #ccc ;
+}
+nav ul .list2:hover .gengduo{
+    display: block;
+}

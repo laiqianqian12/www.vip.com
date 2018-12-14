@@ -1,0 +1,241 @@
+aside{
+    width: 30px;
+    height: 448px;
+    padding-top: 80px;
+    position: fixed;
+    right:0px;
+    top: 0px;
+    background: #262626;
+    z-index: 999;
+}
+.asideTop{
+    width: 30px;
+    height: 43px;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    background: #262626;
+}
+.asideTop_zhanghao{
+     width: 145px;
+    height: 119px;
+    position: absolute;
+    top:0px;
+    right:-162px; 
+    border:1px solid #ccc;
+    background: #f8f8f8;
+     padding:22px 22px 22px 22px;
+     transition:1s;
+      z-index: -12;
+     /*display: none;*/
+}
+.nihao:hover a{
+color:#f10180;
+}
+.asideTop_zhanghao-Dingdan:hover{
+    color:#f10180;
+}
+.right:hover{
+    color:#f10180;
+}
+.asideTop:hover{
+    background: #f10180;
+}
+.asideTop:hover .asideTop_zhanghao{
+    display: block;
+    top:0px;
+    right:30px; 
+}
+.asideTop_zhanghao:hover{
+
+}
+.asideTop_zhanghao li>a{
+    float: left;
+    font-size: 12px;
+    text-align: center;
+}
+.asideTop_zhanghao .nihao_user{
+     font-size: 13px;
+     color:lightblue;
+}
+
+.asideTop_zhanghao li>.right{
+     float: right;
+}
+.asideTop_zhanghao .nihao{
+    width: 149px;
+    height: 27px;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom:16px;
+    border-bottom:2px dashed #ccc;
+    
+}
+.asideTop_zhanghao .nihao img{
+    height: 100%;
+    float: left;
+    margin-right: 12px;
+}
+.asideTop i{
+    color: #dadada !important;
+    font-size: 24px;
+    width: 32px;
+
+}
+.asideTop span{
+    width: 30px;
+    font-size: 12px;
+    color: #dadada;
+}
+
+.asideCenter{
+    width: 32px;
+    height: 120px;
+    background:#e4127d;
+     text-align: center;
+     padding-top: 10px;
+}
+.asideCenter i{
+    color: #ffdafd !important;
+     font-size: 20px;
+}
+.asideCenter a{
+    display: block;
+    width: 15px;
+    color: #ffdafd;
+    font-size: 15px;
+    margin-left: 8px;
+}
+.asideBottom{
+    width: 30px;
+    height: 120px;
+    text-align: center;
+}
+.asideBottom>i{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: #fff !important;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+   /* transition:1s;*/
+   /* z-index: 999;*/
+}
+
+.iconfontOne,.iconfontTwo,.iconfontThree,.iconfontFour{
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    width: 100px;
+    height: 28px;
+    background: #f8f8f8;
+    border:1px solid #ccc;
+    font-size: ;
+    top: -5px;
+    left:0px;
+    opacity:0;
+    transition:1s;
+  
+}
+#asideBottom-i-one:hover{
+    color: #f10180 !important;
+}
+#asideBottom-i-two:hover{
+    color: #f10180 !important;
+}
+#asideBottom-i-three:hover{
+    color: #f10180 !important;
+}
+#asideBottom-i-four:hover{
+    color: #f10180 !important;
+}
+#asideBottom-i-one:hover .iconfontOne{
+     left:-106px;
+     opacity:1;
+}
+#asideBottom-i-two:hover .iconfontTwo{
+left:-106px; opacity:1;
+}
+
+#asideBottom-i-three:hover .iconfontThree{
+left:-106px; opacity:1;
+}
+#asideBottom-i-four:hover .iconfontFour{
+    left:-106px; opacity:1;
+}
+.iconfontOne:hover{
+    color:#f10180;
+}
+.iconfontTwo:hover{
+    color:#f10180;
+}
+.iconfontThree:hover{
+    color:#f10180;
+}
+.iconfontFour:hover{
+    color:#f10180;
+}
+.returnTop{
+    width: 30px;
+    height: 70px;
+    margin-top: 91px;
+    text-align: center;
+     position: relative;
+}
+.returnTop i{
+    margin-bottom: 30px;
+    color: #ffdafd !important;
+     font-size: 20px;
+     cursor:pointer;
+    /* position: relative;*/
+}
+.iconfontFive{
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    background: #f8f8f8;
+    border:1px solid #ccc;
+    top: -5px;
+    left:0px;
+    display: none;
+}
+.iconfontSix{
+     position: absolute;
+    color: black;
+    font-size: 12px;
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    background: #f8f8f8;
+    border:1px solid #ccc;
+    top: 20px;
+    left:0px;
+    display: none;
+}
+#returnTOPClass1:hover .iconfontFive{
+    left:-102px;display: block;
+}
+#returnTOPClass2:hover .iconfontSix{
+    left:-102px;display: block;
+}
+#returnTOPClass1:hover{
+     color:#f10180 !important;
+}
+#returnTOPClass2:hover{
+     color:#f10180 !important;
+}
+.iconfontFive:hover{
+     color:#f10180;
+}
+.iconfontSix:hover{
+     color:#f10180;
+}

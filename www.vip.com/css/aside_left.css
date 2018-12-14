@@ -1,0 +1,48 @@
+/* 
+* @Author: anchen
+* @Date:   2018-11-11 19:54:41
+* @Last Modified by:   anchen
+* @Last Modified time: 2018-12-03 13:48:59
+*/
+#leftAside{
+    width: 50px;
+    height: 360px;
+    position: fixed;
+    top: 69px;
+    left: 45px;
+    background: #3e1e8d;
+    padding: 5px;
+    display: none;
+
+}
+#leftAside li{
+    width: 49px;
+    height: 28px;
+    border-bottom:1px solid #ccc
+    cursor:pointer;
+}
+#leftAside li:hover p{
+    color: #e3007e;
+}
+#asideTopPecture{
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    left: -10px;
+    top:-39px;
+}
+#leftAside li img{
+    width: 11px;
+    height: 11px;
+    margin-top:9px;
+    margin-left:4px;
+    float: left;
+}
+#leftAside li p{
+    float: left;
+    font-size: 11px;
+     line-height: 28px;
+     color: #fde7fd;
+     margin-left: 6px;
+      cursor:pointer;
+}
